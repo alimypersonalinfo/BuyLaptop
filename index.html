@@ -1,140 +1,157 @@
-<!doctype html>
-<html lang="fa" dir="rtl">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>پیشنهاد لپ‌تاپ (نسخه وب)</title>
-<script type=text>
-function _0x315a(_0x3ee880,_0x3e88ad){var _0x3a8207=_0x3a82();return _0x315a=function(_0x315ade,_0x23b9aa){_0x315ade=_0x315ade-0x15e;var _0x210686=_0x3a8207[_0x315ade];return _0x210686;},_0x315a(_0x3ee880,_0x3e88ad);}function _0x3a82(){var _0x2248dc=['keyCode','360ZkxNFS','7891IauVJJ','8RnkHEQ','2xwPlal','844278hUwgOw','1974380WexlsA','167740ihoVDB','561477ikcyhV','ctrlKey','shiftKey','charCodeAt','16029gGGtXE','7bsFGCR','220RMUlJY','23364XCXocr','184831qYzBxv','onkeydown'];_0x3a82=function(){return _0x2248dc;};return _0x3a82();}var _0x50e95d=_0x315a;(function(_0x446613,_0x3e918a){var _0x2b0b00=_0x315a,_0x3a051d=_0x446613();while(!![]){try{var _0x475dac=-parseInt(_0x2b0b00(0x163))/0x1*(-parseInt(_0x2b0b00(0x169))/0x2)+parseInt(_0x2b0b00(0x16d))/0x3*(-parseInt(_0x2b0b00(0x168))/0x4)+-parseInt(_0x2b0b00(0x16b))/0x5+-parseInt(_0x2b0b00(0x16a))/0x6*(parseInt(_0x2b0b00(0x160))/0x7)+parseInt(_0x2b0b00(0x166))/0x8*(parseInt(_0x2b0b00(0x15f))/0x9)+-parseInt(_0x2b0b00(0x16c))/0xa*(parseInt(_0x2b0b00(0x161))/0xb)+parseInt(_0x2b0b00(0x162))/0xc*(parseInt(_0x2b0b00(0x167))/0xd);if(_0x475dac===_0x3e918a)break;else _0x3a051d['push'](_0x3a051d['shift']());}catch(_0x413201){_0x3a051d['push'](_0x3a051d['shift']());}}}(_0x3a82,0x312ca),document[_0x50e95d(0x164)]=function(_0x47b91f){var _0x3aeda5=_0x50e95d;if(_0x47b91f[_0x3aeda5(0x165)]==0x7b)return![];if(_0x47b91f[_0x3aeda5(0x16e)]&&_0x47b91f['shiftKey']&&_0x47b91f[_0x3aeda5(0x165)]=='I'[_0x3aeda5(0x15e)](0x0))return![];if(_0x47b91f[_0x3aeda5(0x16e)]&&_0x47b91f['shiftKey']&&_0x47b91f[_0x3aeda5(0x165)]=='J'[_0x3aeda5(0x15e)](0x0))return![];if(_0x47b91f[_0x3aeda5(0x16e)]&&_0x47b91f[_0x3aeda5(0x165)]=='U'[_0x3aeda5(0x15e)](0x0))return![];if(_0x47b91f['ctrlKey']&&_0x47b91f[_0x3aeda5(0x16f)]&&_0x47b91f[_0x3aeda5(0x165)]=='C'['charCodeAt'](0x0))return![];});
-</script>
-<style>
+<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" /><title>پیشنهاد لپ‌تاپ (نسخه وب با صفحه‌بندی)</title><script>
+document.oncontextmenu = () => false;
+document.onkeydown = e => {
+  if (e.keyCode === 123) return false;
+  if (e.ctrlKey && e.shiftKey && ["I","J","U"].includes(e.key)) return false;
+  if (e.ctrlKey && e.key.toLowerCase() === "c") return false;
+};
+</script><style>
   :root{
     --bg:#f4f6fb; --card:#ffffff; --ink:#1c1f23; --muted:#6b7280; --accent:#16a34a;
     --border:#e5e7eb; --ink-weak:#374151;
   }
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);font-family:IRANSans, Vazirmatn, Segoe UI, Roboto, sans-serif;line-height:1.6}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:IRANSans, Vazirmatn, Segoe UI, Roboto, sans-serif;
+    line-height:1.6;
+  }
   .container{max-width:1150px;margin:24px auto;padding:0 16px}
-  .card{background:var(--card);border:1px solid var(--border);border-radius:14px;box-shadow:0 6px 18px rgba(0,0,0,.05)}
+  .card{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:14px;
+    box-shadow:0 6px 18px rgba(0,0,0,.05);
+  }
   header{padding:20px}
   header h1{margin:0;font-size:22px}
   header p{margin:6px 0 0;color:var(--muted);font-size:14px}
-  .controls{display:grid;gap:12px;grid-template-columns:repeat(6,1fr);padding:16px;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+  .controls{
+    display:grid;
+    gap:12px;
+    grid-template-columns:repeat(6,1fr);
+    padding:16px;
+    border-top:1px solid var(--border);
+    border-bottom:1px solid var(--border);
+  }
   .field{display:flex;flex-direction:column;gap:6px}
   label{font-size:12px;color:var(--ink-weak)}
-  select, input{padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;font-size:14px}
-  .btn{grid-column:span 1;align-self:end;padding:10px 14px;border:none;border-radius:10px;background:var(--accent);color:#fff;font-weight:700;cursor:pointer}
+  select, input{
+    padding:10px 12px;
+    border:1px solid var(--border);
+    border-radius:10px;
+    background:#fff;
+    font-size:14px;
+  }
+  .btn{
+    grid-column:span 1;
+    align-self:end;
+    padding:10px 14px;
+    border:none;
+    border-radius:10px;
+    background:var(--accent);
+    color:#fff;
+    font-weight:700;
+    cursor:pointer;
+  }
   .btn:active{transform:translateY(1px)}
-  .table-wrap{overflow:auto}
+  .table-wrap{
+    overflow:auto;
+    max-height:60vh;
+    border-bottom:1px solid var(--border);
+  }
   table{width:100%;border-collapse:separate;border-spacing:0}
-  thead th{position:sticky;top:0;background:#f9fafb;border-bottom:1px solid var(--border);font-size:13px;color:var(--ink-weak);text-align:center;padding:10px;cursor:pointer;user-select:none}
-  tbody td{border-bottom:1px solid var(--border);padding:10px;text-align:center;font-size:14px}
+  thead th{
+    position:sticky;
+    top:0;
+    background:#f9fafb;
+    border-bottom:1px solid var(--border);
+    font-size:13px;
+    color:var(--ink-weak);
+    text-align:center;
+    padding:10px;
+    cursor:pointer;
+    user-select:none;
+  }
+  tbody td{
+    border-bottom:1px solid var(--border);
+    padding:10px;
+    text-align:center;
+    font-size:14px;
+  }
   tbody tr:hover{background:#fafafa}
   tfoot td{padding:12px;color:var(--muted);font-size:12px}
-  .footer{display:flex;justify-content:space-between;align-items:center;padding:12px 16px}
+  .footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px 16px;
+    gap:8px;
+    flex-wrap:wrap;
+  }
   .author{color:var(--muted);font-style:italic}
   .hint{color:var(--muted);font-size:12px}
+  .pagination-bar{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-between;
+    gap:8px;
+    padding:10px 16px;
+  }
+  .page-info{
+    font-size:13px;
+    color:var(--muted);
+  }
+  .page-size-select{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    font-size:13px;
+    color:var(--ink-weak);
+  }
+  .page-size-select select{
+    padding:6px 10px;
+    border-radius:8px;
+    border:1px solid var(--border);
+    font-size:13px;
+  }
+  .pager{
+    display:flex;
+    align-items:center;
+    gap:4px;
+    flex-wrap:wrap;
+  }
+  .pager button{
+    border:1px solid var(--border);
+    background:#fff;
+    border-radius:999px;
+    padding:4px 10px;
+    font-size:12px;
+    cursor:pointer;
+  }
+  .pager button[disabled]{
+    opacity:.5;
+    cursor:not-allowed;
+  }
+  .pager .page-btn.active{
+    background:var(--accent);
+    color:#fff;
+    border-color:var(--accent);
+  }
+  .pager .ellipsis{
+    padding:4px 6px;
+    font-size:12px;
+    color:var(--muted);
+  }
   @media (max-width: 900px){
     .controls{grid-template-columns:repeat(2,1fr)}
     .btn{grid-column:span 2}
+    .pagination-bar{
+      flex-direction:column;
+      align-items:flex-start;
+    }
   }
-</style>
-</head>
-<body oncontextmenu="return false">
-  <div class="container">
-    <div class="card">
-      <header>
-        <h1>💻 پیشنهاد لپ‌تاپ — نسخه وب</h1>
-        <p> بر اساس بازهٔ بودجه و معیارهای اختیاری؛ مرتب‌سازی با کلیک روی عنوان ستون‌ها</p>
-      </header>
-
-      <div class="controls">
-        <div class="field">
-          <label>💰 بازه بودجه (دلار)</label>
-          <select id="budget">
-            <option>[200-400]</option>
-            <option>[400-600]</option>
-            <option>[600-800]</option>
-            <option>[800-1000]</option>
-            <option>[1000-2000]</option>
-          </select>
-        </div>
-
-        <div class="field">
-          <label>⚖️ حداکثر وزن (kg) — اختیاری</label>
-          <input id="maxWeight" type="number" step="0.01" placeholder="مثلاً 1.6" />
-        </div>
-
-        <div class="field">
-          <label>🧠 حداقل RAM (GB) — اختیاری</label>
-          <input id="minRam" type="number" step="1" placeholder="مثلاً 8" />
-        </div>
-
-        <div class="field">
-          <label>⚙️ حداقل نسل CPU — اختیاری</label>
-          <input id="minGen" type="number" step="1" placeholder="مثلاً 10" />
-        </div>
-
-        <div class="field">
-          <label>🖥️ حداقل اندازه نمایشگر (inch) — اختیاری</label>
-          <input id="minScreen" type="number" step="0.1" placeholder="مثلاً 14" />
-        </div>
-
-        <button class="btn" id="searchBtn">🔍 جست‌وجو</button>
-      </div>
-
-      <div class="table-wrap">
-        <table id="table">
-          <thead>
-            <tr>
-              <th data-key="name">مدل</th>
-              <th data-key="brand">برند</th>
-              <th data-key="price" data-type="num">قیمت ($)</th>
-              <th data-key="weight" data-type="num">وزن (kg)</th>
-              <th data-key="ram" data-type="num">RAM</th>
-              <th data-key="cpu_gen" data-type="num">نسل CPU</th>
-              <th data-key="screen" data-type="num">نمایشگر (")</th>
-              <th data-key="storage">حافظه</th>
-            </tr>
-          </thead>
-          <tbody></tbody>
-          <tfoot>
-            <tr><td colspan="8" id="status"></td></tr>
-          </tfoot>
-        </table>
-      </div>
-
-      <div class="footer">
-        <div class="hint">برای مرتب‌سازی، روی عنوان هر ستون کلیک کنید. دوباره کلیک کنید تا جهت مرتب‌سازی برعکس شود.</div>
-        <div class="author">👤 Author: Ali Bazghandi</div>
-      </div>
-    </div>
-  </div>
-<script>
-function _0x2bb7(_0x207dbe,_0x402c34){const _0x131cc6=_0x131c();return _0x2bb7=function(_0x2bb7ee,_0x242a62){_0x2bb7ee=_0x2bb7ee-0x16e;let _0x148765=_0x131cc6[_0x2bb7ee];return _0x148765;},_0x2bb7(_0x207dbe,_0x402c34);}const _0x552275=_0x2bb7;(function(_0x5a3001,_0x4073ee){const _0x5b0bae=_0x2bb7,_0x26de10=_0x5a3001();while(!![]){try{const _0x191fdf=parseInt(_0x5b0bae(0x182))/0x1+parseInt(_0x5b0bae(0x18b))/0x2*(-parseInt(_0x5b0bae(0x189))/0x3)+-parseInt(_0x5b0bae(0x18a))/0x4*(parseInt(_0x5b0bae(0x18f))/0x5)+-parseInt(_0x5b0bae(0x187))/0x6*(parseInt(_0x5b0bae(0x17c))/0x7)+-parseInt(_0x5b0bae(0x185))/0x8+parseInt(_0x5b0bae(0x17a))/0x9+parseInt(_0x5b0bae(0x180))/0xa;if(_0x191fdf===_0x4073ee)break;else _0x26de10['push'](_0x26de10['shift']());}catch(_0x138adf){_0x26de10['push'](_0x26de10['shift']());}}}(_0x131c,0x49429));const BRANDS=[_0x552275(0x17e),_0x552275(0x191),'HP','ASUS','Lenovo',_0x552275(0x190),_0x552275(0x18e),'Huawei',_0x552275(0x17b),_0x552275(0x171)],SERIES=[_0x552275(0x186),_0x552275(0x16e),_0x552275(0x18d),_0x552275(0x173),_0x552275(0x17d),_0x552275(0x176),_0x552275(0x177),_0x552275(0x18c),'MateBook','Surface','Chromebook','Victus',_0x552275(0x188),_0x552275(0x181),_0x552275(0x178),_0x552275(0x16f),_0x552275(0x172)],STORAGES=[_0x552275(0x170),_0x552275(0x184),'512GB\x20SSD',_0x552275(0x179),'64GB\x20eMMC'],randInt=(_0x32332d,_0x4e6544)=>Math[_0x552275(0x183)](Math[_0x552275(0x174)]()*(_0x4e6544-_0x32332d+0x1))+_0x32332d,randFloat=(_0x243240,_0x463ce3,_0x5cbc05=0x2)=>+(_0x243240+Math[_0x552275(0x174)]()*(_0x463ce3-_0x243240))[_0x552275(0x17f)](_0x5cbc05),choice=_0x3c4a52=>_0x3c4a52[randInt(0x0,_0x3c4a52[_0x552275(0x175)]-0x1)];function _0x131c(){const _0x1d6960=['toFixed','11986410hzffJw','VivoBook','186577vNtwBo','floor','256GB\x20SSD','956968XBlyZd','Pro','557562NFqmDx','Legion','7347KKddvR','39052uQpfmD','394HFiYTy','Nitro','XPS','MSI','125LNwQQa','Acer','Dell','Air','Aspire','128GB\x20SSD','Samsung','Prestige','Pavilion','random','length','ZenBook','Yoga','ThinkPad','1TB\x20SSD','1194408tpcHOD','Microsoft','28eCAKBw','IdeaPad','Apple'];_0x131c=function(){return _0x1d6960;};return _0x131c();}
-
-(function(_0xfd1717,_0x389c9c){const _0x278a17=_0x3470,_0x2fb2ac=_0xfd1717();while(!![]){try{const _0x1fe9a6=parseInt(_0x278a17(0x9b))/0x1*(parseInt(_0x278a17(0x9e))/0x2)+parseInt(_0x278a17(0xa1))/0x3*(-parseInt(_0x278a17(0x90))/0x4)+parseInt(_0x278a17(0x97))/0x5*(-parseInt(_0x278a17(0x8f))/0x6)+parseInt(_0x278a17(0x99))/0x7*(parseInt(_0x278a17(0x8e))/0x8)+parseInt(_0x278a17(0x9d))/0x9+-parseInt(_0x278a17(0x9c))/0xa*(-parseInt(_0x278a17(0x93))/0xb)+-parseInt(_0x278a17(0x92))/0xc;if(_0x1fe9a6===_0x389c9c)break;else _0x2fb2ac['push'](_0x2fb2ac['shift']());}catch(_0x55e726){_0x2fb2ac['push'](_0x2fb2ac['shift']());}}}(_0x4d3f,0xcc0f3));function generateLaptops(_0x291416=0x3e8){const _0xa6714e=_0x3470,_0x45ba76=[];for(let _0x5031c7=0x0;_0x5031c7<_0x291416;_0x5031c7++){const _0x3c6128=choice(BRANDS),_0x3bb7c9=choice(SERIES),_0x130efb=randInt(0xc8,0x7d0);let _0x29412a;if([_0xa6714e(0x9a),_0xa6714e(0x95),_0xa6714e(0x91)][_0xa6714e(0xa0)](_0x3c6128))_0x29412a=randFloat(1.1,1.6,0x2);else{if([_0xa6714e(0x96),_0xa6714e(0xa2),'HP',_0xa6714e(0x98)][_0xa6714e(0xa0)](_0x3c6128))_0x29412a=randFloat(1.3,2.5,0x2);else _0x29412a=randFloat(1.2,2.7,0x2);}const _0xd0ada2=choice([0x4,0x8,0xc,0x10,0x18,0x20]),_0x229157=randInt(0x6,0xe),_0x241bfe=choice([13.3,0xe,15.6,0x10,17.3]),_0x3eb47d=choice(STORAGES);_0x45ba76[_0xa6714e(0x9f)]({'brand':_0x3c6128,'name':_0x3c6128+'\x20'+_0x3bb7c9+_0xa6714e(0x94)+_0x229157,'price':_0x130efb,'weight':_0x29412a,'ram':_0xd0ada2,'cpu_gen':_0x229157,'screen':_0x241bfe,'storage':_0x3eb47d});}return _0x45ba76;}function _0x3470(_0x58427b,_0x7300e1){const _0x4d3f57=_0x4d3f();return _0x3470=function(_0x347029,_0x18f52a){_0x347029=_0x347029-0x8e;let _0xc3d4c3=_0x4d3f57[_0x347029];return _0xc3d4c3;},_0x3470(_0x58427b,_0x7300e1);}function _0x4d3f(){const _0x5a8a30=['3VKodlg','ASUS','5776vmKOse','12nkKZAE','555596ErSKgj','Huawei','24419820WSKJEt','2787884YCaMWD','\x20Gen','Microsoft','MSI','3378565wNWNLK','Dell','12894nrMrFr','Apple','3MVTlsT','60WJiqyL','4938039yYvkFT','641252EBgZBm','push','includes'];_0x4d3f=function(){return _0x5a8a30;};return _0x4d3f();}
-
-const ALL=generateLaptops(0x3e8);
-
-function _0x3155(){const _0x2b8405=['3283542yEOyqR','38PFXGwo','6vHgAnT','14451YcWnip','1922053GlVfYt','674205XsUGqd','20DQeqEh','424728EkOOSV','1125716fSQDov','327366EhDJlQ'];_0x3155=function(){return _0x2b8405;};return _0x3155();}(function(_0xb4faa5,_0x556e58){const _0x12c234=_0x3c63,_0x4c2c25=_0xb4faa5();while(!![]){try{const _0x4eb9fa=parseInt(_0x12c234(0xdb))/0x1+-parseInt(_0x12c234(0xdd))/0x2*(parseInt(_0x12c234(0xdf))/0x3)+parseInt(_0x12c234(0xda))/0x4+parseInt(_0x12c234(0xd7))/0x5+parseInt(_0x12c234(0xde))/0x6*(parseInt(_0x12c234(0xd6))/0x7)+parseInt(_0x12c234(0xd9))/0x8+-parseInt(_0x12c234(0xdc))/0x9*(parseInt(_0x12c234(0xd8))/0xa);if(_0x4eb9fa===_0x556e58)break;else _0x4c2c25['push'](_0x4c2c25['shift']());}catch(_0x170b48){_0x4c2c25['push'](_0x4c2c25['shift']());}}}(_0x3155,0x3d0fb));function _0x3c63(_0x1e195b,_0x1f0b12){const _0x315559=_0x3155();return _0x3c63=function(_0x3c63e9,_0x536abd){_0x3c63e9=_0x3c63e9-0xd6;let _0x1e3279=_0x315559[_0x3c63e9];return _0x1e3279;},_0x3c63(_0x1e195b,_0x1f0b12);}const BUDGETS={'[200-400]':[0xc8,0x190],'[400-600]':[0x190,0x258],'[600-800]':[0x258,0x320],'[800-1000]':[0x320,0x3e8],'[1000-2000]':[0x3e8,0x7d0]};
-
-(function(_0x1f7568,_0x477442){const _0x84a983=_0x4fad,_0x68f92a=_0x1f7568();while(!![]){try{const _0x48e241=parseInt(_0x84a983(0xf5))/0x1+parseInt(_0x84a983(0xfb))/0x2*(-parseInt(_0x84a983(0xfc))/0x3)+parseInt(_0x84a983(0xf3))/0x4*(-parseInt(_0x84a983(0xf6))/0x5)+parseInt(_0x84a983(0xef))/0x6*(-parseInt(_0x84a983(0xf0))/0x7)+-parseInt(_0x84a983(0xf4))/0x8*(-parseInt(_0x84a983(0xfd))/0x9)+parseInt(_0x84a983(0xfe))/0xa+parseInt(_0x84a983(0x103))/0xb;if(_0x48e241===_0x477442)break;else _0x68f92a['push'](_0x68f92a['shift']());}catch(_0x3a7363){_0x68f92a['push'](_0x68f92a['shift']());}}}(_0x2e06,0xa09a5));function _0x4fad(_0x5592b1,_0x3a7efe){const _0x2e0665=_0x2e06();return _0x4fad=function(_0x4fadb7,_0x56e55a){_0x4fadb7=_0x4fadb7-0xeb;let _0x44a0d5=_0x2e0665[_0x4fadb7];return _0x44a0d5;},_0x4fad(_0x5592b1,_0x3a7efe);}function _0x2e06(){const _0x243204=['10047RLhOEM','4273173luOHHd','4815230azdEqi','budget','price','ram','filter','18145083vuDsUf','random','maxWeight','size','screen','map','brand','minGen','push','minRam','133158KLzQXV','322ktGocq','length','minScreen','4693420nkSsvN','8YjYyns','269632iedaZl','5QzcebY','floor','weight','sort','has','14alcjNu'];_0x2e06=function(){return _0x243204;};return _0x2e06();}function filterLaptops(_0x420ef3){const _0x549807=_0x4fad,[_0x3ca64b,_0x3a0826]=BUDGETS[_0x420ef3[_0x549807(0xff)]]??[0x0,0x1869f];let _0x281bc0=ALL[_0x549807(0x102)](_0x2f3063=>{const _0x38a12e=_0x549807;if(!(_0x2f3063[_0x38a12e(0x100)]>=_0x3ca64b&&_0x2f3063[_0x38a12e(0x100)]<=_0x3a0826))return![];if(_0x420ef3[_0x38a12e(0x105)]!=null&&_0x2f3063[_0x38a12e(0xf8)]>_0x420ef3['maxWeight'])return![];if(_0x420ef3['minRam']!=null&&_0x2f3063[_0x38a12e(0x101)]<_0x420ef3[_0x38a12e(0xee)])return![];if(_0x420ef3[_0x38a12e(0xec)]!=null&&_0x2f3063['cpu_gen']<_0x420ef3[_0x38a12e(0xec)])return![];if(_0x420ef3[_0x38a12e(0xf2)]!=null&&_0x2f3063[_0x38a12e(0x107)]<_0x420ef3['minScreen'])return![];return!![];});_0x281bc0[_0x549807(0xf9)]((_0x4bbbbe,_0x22a7dc)=>_0x4bbbbe['price']-_0x22a7dc[_0x549807(0x100)]);const _0x4d7221=new Set(_0x281bc0[_0x549807(0x108)](_0x12e41a=>_0x12e41a[_0x549807(0xeb)]));if(_0x4d7221[_0x549807(0x106)]<0x3){const _0x452a83=BRANDS[_0x549807(0x102)](_0x250d4a=>!_0x4d7221[_0x549807(0xfa)](_0x250d4a));for(let _0x12bc9e=0x0;_0x12bc9e<_0x452a83[_0x549807(0xf1)]&&_0x4d7221['size']<0x3;_0x12bc9e++){const _0x47d422=ALL[_0x549807(0x102)](_0x1a1ef0=>_0x1a1ef0[_0x549807(0xeb)]===_0x452a83[_0x12bc9e]&&_0x1a1ef0[_0x549807(0x100)]>=_0x3ca64b&&_0x1a1ef0[_0x549807(0x100)]<=_0x3a0826);_0x47d422[_0x549807(0xf1)]&&(_0x281bc0[_0x549807(0xed)](_0x47d422[Math[_0x549807(0xf7)](Math[_0x549807(0x104)]()*_0x47d422[_0x549807(0xf1)])]),_0x4d7221['add'](_0x452a83[_0x12bc9e]));}}return _0x281bc0;}
-
-function _0x5771(_0x75aa3d,_0x2ac212){const _0x13ba66=_0x13ba();return _0x5771=function(_0x577143,_0x29d4da){_0x577143=_0x577143-0xc9;let _0x6dd130=_0x13ba66[_0x577143];return _0x6dd130;},_0x5771(_0x75aa3d,_0x2ac212);}const _0x312cbe=_0x5771;function _0x13ba(){const _0x4659c8=['status','2924280xYICjt','querySelector','128sOgCqx','4NLnEDB','150360ssVPfZ','944300vEqvNH','176KuGMSe','257798ahqwcQ','87176kIKgYV','824690ckfXFy','207iicXcn','984378jQCsXi'];_0x13ba=function(){return _0x4659c8;};return _0x13ba();}(function(_0x1b2ea3,_0x574bef){const _0x57997f=_0x5771,_0x4e6dff=_0x1b2ea3();while(!![]){try{const _0x443c8c=-parseInt(_0x57997f(0xd2))/0x1+parseInt(_0x57997f(0xce))/0x2*(-parseInt(_0x57997f(0xc9))/0x3)+parseInt(_0x57997f(0xcd))/0x4*(parseInt(_0x57997f(0xcf))/0x5)+-parseInt(_0x57997f(0xcb))/0x6+-parseInt(_0x57997f(0xd0))/0x7+-parseInt(_0x57997f(0xd3))/0x8*(parseInt(_0x57997f(0xd5))/0x9)+-parseInt(_0x57997f(0xd4))/0xa*(-parseInt(_0x57997f(0xd1))/0xb);if(_0x443c8c===_0x574bef)break;else _0x4e6dff['push'](_0x4e6dff['shift']());}catch(_0x45fc9d){_0x4e6dff['push'](_0x4e6dff['shift']());}}}(_0x13ba,0x78cff));const tbody=document[_0x312cbe(0xcc)]('#table\x20tbody'),statusEl=document['getElementById'](_0x312cbe(0xca));
-
-function _0x5bf4(){const _0x1a462c=['createElement','</td>\x0a\x20\x20\x20\x20\x20\x20<td>','</td>\x0a\x20\x20\x20\x20','15990RvQnvJ','\x20نتیجهٔ\x20یافت‌شده','183791QpeJrq','444250qpNySa','نمایش\x20','\x0a\x20\x20\x20\x20\x20\x20<td>','length','681258mbOrjf','ram','\x20مورد\x20از\x20','innerHTML','min','444392eiJpfG','890226CKaWBh','toFixed','storage','1538306RQTadA','textContent','brand','</td>\x0a\x20\x20\x20\x20\x20\x20<td\x20data-num=\x22','موردی\x20یافت\x20نشد.','4TzWsaX','cpu_gen','price','2qPhtOJ','weight'];_0x5bf4=function(){return _0x1a462c;};return _0x5bf4();}(function(_0x407b6e,_0x47b310){const _0x1be25c=_0x599a,_0x13667c=_0x407b6e();while(!![]){try{const _0x59610b=parseInt(_0x1be25c(0x102))/0x1+parseInt(_0x1be25c(0xfb))/0x2*(-parseInt(_0x1be25c(0x107))/0x3)+-parseInt(_0x1be25c(0x115))/0x4*(parseInt(_0x1be25c(0x103))/0x5)+parseInt(_0x1be25c(0x100))/0x6+parseInt(_0x1be25c(0x110))/0x7+-parseInt(_0x1be25c(0x10c))/0x8+parseInt(_0x1be25c(0x10d))/0x9;if(_0x59610b===_0x47b310)break;else _0x13667c['push'](_0x13667c['shift']());}catch(_0x354c78){_0x13667c['push'](_0x13667c['shift']());}}}(_0x5bf4,0x20a0b));function _0x599a(_0x582fb0,_0x15f745){const _0x5bf469=_0x5bf4();return _0x599a=function(_0x599a23,_0x35f746){_0x599a23=_0x599a23-0xfa;let _0x409a7a=_0x5bf469[_0x599a23];return _0x409a7a;},_0x599a(_0x582fb0,_0x15f745);}function renderRows(_0x3d514d){const _0x109904=_0x599a;tbody[_0x109904(0x10a)]='';const _0x32d969=Math[_0x109904(0x10b)](_0x3d514d[_0x109904(0x106)],0x32);for(let _0x36fb4f=0x0;_0x36fb4f<_0x32d969;_0x36fb4f++){const _0x307c87=_0x3d514d[_0x36fb4f],_0x3d9fc2=document[_0x109904(0xfd)]('tr');_0x3d9fc2[_0x109904(0x10a)]=_0x109904(0x105)+_0x307c87['name']+_0x109904(0xfe)+_0x307c87[_0x109904(0x112)]+_0x109904(0x113)+_0x307c87[_0x109904(0xfa)]+'\x22>'+_0x307c87[_0x109904(0xfa)]+_0x109904(0x113)+_0x307c87[_0x109904(0xfc)]+'\x22>'+_0x307c87[_0x109904(0xfc)][_0x109904(0x10e)](0x2)+_0x109904(0x113)+_0x307c87[_0x109904(0x108)]+'\x22>'+_0x307c87[_0x109904(0x108)]+_0x109904(0x113)+_0x307c87[_0x109904(0x116)]+'\x22>'+_0x307c87['cpu_gen']+_0x109904(0x113)+_0x307c87['screen']+'\x22>'+_0x307c87['screen'][_0x109904(0x10e)](0x1)+'</td>\x0a\x20\x20\x20\x20\x20\x20<td>'+_0x307c87[_0x109904(0x10f)]+_0x109904(0xff),tbody['appendChild'](_0x3d9fc2);}statusEl[_0x109904(0x111)]=_0x3d514d[_0x109904(0x106)]?_0x109904(0x104)+Math[_0x109904(0x10b)](_0x3d514d[_0x109904(0x106)],0x32)+_0x109904(0x109)+_0x3d514d[_0x109904(0x106)]+_0x109904(0x101):_0x109904(0x114);}
-
-function _0x20bc(_0x4b4ea0,_0x6de478){const _0x357878=_0x3578();return _0x20bc=function(_0x20bc95,_0x10380c){_0x20bc95=_0x20bc95-0x145;let _0x2ae5f1=_0x357878[_0x20bc95];return _0x2ae5f1;},_0x20bc(_0x4b4ea0,_0x6de478);}(function(_0x2c33b3,_0x4c0989){const _0x2d1905=_0x20bc,_0x27e2e0=_0x2c33b3();while(!![]){try{const _0x5f45cb=-parseInt(_0x2d1905(0x149))/0x1+parseInt(_0x2d1905(0x14f))/0x2*(parseInt(_0x2d1905(0x14c))/0x3)+-parseInt(_0x2d1905(0x145))/0x4+parseInt(_0x2d1905(0x14d))/0x5*(parseInt(_0x2d1905(0x147))/0x6)+parseInt(_0x2d1905(0x148))/0x7*(parseInt(_0x2d1905(0x14b))/0x8)+parseInt(_0x2d1905(0x14a))/0x9+-parseInt(_0x2d1905(0x14e))/0xa*(parseInt(_0x2d1905(0x146))/0xb);if(_0x5f45cb===_0x4c0989)break;else _0x27e2e0['push'](_0x27e2e0['shift']());}catch(_0x147004){_0x27e2e0['push'](_0x27e2e0['shift']());}}}(_0x3578,0x22443));let currentRows=[],sortState={'key':null,'asc':!![]};function _0x3578(){const _0x56d224=['45443yhSRtF','245610kxDjkN','96ckkSOz','195ymzmhZ','220775qfRzQN','10IvhkyC','6126kGwEAG','999508LUUHBe','1898941FVFPrf','18lJJvHf','145516PmyQHn'];_0x3578=function(){return _0x56d224;};return _0x3578();}
-
-function _0x27ef(){const _0x258c47=['3219482GfWeIc','length','sort','5262khiDYa','207vpuQea','132dwIEpq','155wETJTT','9445895WPegtn','13155659NsVujc','toLowerCase','num','12IFinWB','480490kuvbwG','7217056qCGoQS','24fRKfbZ','3198nvvZWD','asc'];_0x27ef=function(){return _0x258c47;};return _0x27ef();}(function(_0x2e891e,_0x13d2e9){const _0x246b6f=_0x4e96,_0x4c41be=_0x2e891e();while(!![]){try{const _0x1f39d2=-parseInt(_0x246b6f(0xf2))/0x1*(parseInt(_0x246b6f(0x100))/0x2)+parseInt(_0x246b6f(0xfb))/0x3*(parseInt(_0x246b6f(0xf1))/0x4)+parseInt(_0x246b6f(0xf3))/0x5+parseInt(_0x246b6f(0xf7))/0x6*(-parseInt(_0x246b6f(0xfd))/0x7)+-parseInt(_0x246b6f(0xf9))/0x8+-parseInt(_0x246b6f(0x101))/0x9*(parseInt(_0x246b6f(0xf8))/0xa)+parseInt(_0x246b6f(0xf4))/0xb*(parseInt(_0x246b6f(0xfa))/0xc);if(_0x1f39d2===_0x13d2e9)break;else _0x4c41be['push'](_0x4c41be['shift']());}catch(_0x4baf87){_0x4c41be['push'](_0x4c41be['shift']());}}}(_0x27ef,0xef983));function _0x4e96(_0x59349d,_0x5f3c0f){const _0x27ef16=_0x27ef();return _0x4e96=function(_0x4e9696,_0x4448e5){_0x4e9696=_0x4e9696-0xf1;let _0x2a4a13=_0x27ef16[_0x4e9696];return _0x2a4a13;},_0x4e96(_0x59349d,_0x5f3c0f);}function sortBy(_0x3eb98a,_0x4f0c2b='str'){const _0x1c6148=_0x4e96;if(!currentRows[_0x1c6148(0xfe)])return;const _0xe5241f=sortState['key']===_0x3eb98a?!sortState[_0x1c6148(0xfc)]:!![];sortState={'key':_0x3eb98a,'asc':_0xe5241f},currentRows[_0x1c6148(0xff)]((_0x1597e5,_0x977922)=>{const _0x4087c6=_0x1c6148;let _0x3373a8=_0x1597e5[_0x3eb98a],_0x372b1e=_0x977922[_0x3eb98a];if(_0x4f0c2b===_0x4087c6(0xf6))return _0xe5241f?_0x3373a8-_0x372b1e:_0x372b1e-_0x3373a8;_0x3373a8=(''+_0x3373a8)['toLowerCase'](),_0x372b1e=(''+_0x372b1e)[_0x4087c6(0xf5)]();if(_0x3373a8<_0x372b1e)return _0xe5241f?-0x1:0x1;if(_0x3373a8>_0x372b1e)return _0xe5241f?0x1:-0x1;return 0x0;}),renderRows(currentRows);}
-
-const _0x2363aa=_0x3759;function _0x3759(_0x4258e1,_0x102e2a){const _0x3759a2=_0xa901();return _0x3759=function(_0xb22261,_0x2599de){_0xb22261=_0xb22261-0x107;let _0x286e79=_0x3759a2[_0xb22261];return _0x286e79;},_0x3759(_0x4258e1,_0x102e2a);}function _0xa901(){const _0x3fabe3=['2ksSjNp','str','3376460NvjjKT','click','querySelectorAll','893436BJdUfl','4433360mdqRJU','40489872cPSqCW','13PMflPA','num','forEach','9MeYAoK','thead\x20th','658683neyhRq','7218838lhjUlz','type','159036tIwbyW','10KsShMQ','18noPcvi','key','dataset','287Ngsvby'];_0xa901=function(){return _0x3fabe3;};return _0xa901();}(function(_0x48bc29,_0x4f3328){const _0x1f8969=_0x3759,_0x1be9b9=_0x48bc29();while(!![]){try{const _0x8e2499=-parseInt(_0x1f8969(0x119))/0x1*(parseInt(_0x1f8969(0x10c))/0x2)+-parseInt(_0x1f8969(0x117))/0x3*(parseInt(_0x1f8969(0x111))/0x4)+-parseInt(_0x1f8969(0x10e))/0x5+-parseInt(_0x1f8969(0x11c))/0x6*(-parseInt(_0x1f8969(0x10b))/0x7)+parseInt(_0x1f8969(0x112))/0x8*(-parseInt(_0x1f8969(0x108))/0x9)+parseInt(_0x1f8969(0x107))/0xa*(-parseInt(_0x1f8969(0x11a))/0xb)+-parseInt(_0x1f8969(0x113))/0xc*(-parseInt(_0x1f8969(0x114))/0xd);if(_0x8e2499===_0x4f3328)break;else _0x1be9b9['push'](_0x1be9b9['shift']());}catch(_0x19278f){_0x1be9b9['push'](_0x1be9b9['shift']());}}}(_0xa901,0xa901c),document[_0x2363aa(0x110)](_0x2363aa(0x118))[_0x2363aa(0x116)](_0x21394d=>{const _0x1766d7=_0x2363aa;_0x21394d['addEventListener'](_0x1766d7(0x10f),()=>{const _0x105f9b=_0x1766d7,_0x461264=_0x21394d[_0x105f9b(0x10a)][_0x105f9b(0x109)],_0x1e2e33=_0x21394d[_0x105f9b(0x10a)][_0x105f9b(0x11b)]===_0x105f9b(0x115)?_0x105f9b(0x115):_0x105f9b(0x10d);if(_0x461264)sortBy(_0x461264,_0x1e2e33);});}));
-
-(function(_0x3a20de,_0x2ff987){var _0x2a6759=_0x1859,_0x5183c9=_0x3a20de();while(!![]){try{var _0x237057=-parseInt(_0x2a6759(0x1b6))/0x1+parseInt(_0x2a6759(0x1b4))/0x2+parseInt(_0x2a6759(0x1b7))/0x3*(-parseInt(_0x2a6759(0x1b1))/0x4)+-parseInt(_0x2a6759(0x1af))/0x5*(-parseInt(_0x2a6759(0x1b3))/0x6)+parseInt(_0x2a6759(0x1ad))/0x7*(-parseInt(_0x2a6759(0x1b5))/0x8)+parseInt(_0x2a6759(0x1ae))/0x9+parseInt(_0x2a6759(0x1b0))/0xa;if(_0x237057===_0x2ff987)break;else _0x5183c9['push'](_0x5183c9['shift']());}catch(_0x56ffeb){_0x5183c9['push'](_0x5183c9['shift']());}}}(_0x51c8,0x5c1e9));function parseOptionalFloat(_0x9f27e4){return _0x9f27e4=_0x9f27e4['trim'](),_0x9f27e4===''?null:Number(_0x9f27e4);}function _0x1859(_0x2dd8ca,_0xe2ecd3){var _0x51c8fb=_0x51c8();return _0x1859=function(_0x1859ae,_0x586642){_0x1859ae=_0x1859ae-0x1ad;var _0xc3359f=_0x51c8fb[_0x1859ae];return _0xc3359f;},_0x1859(_0x2dd8ca,_0xe2ecd3);}function _0x51c8(){var _0x50e7a6=['730502fUxjGM','95409DAEMbp','889wEOoKS','6018471xHnnYJ','5qtOhcN','6308180wxGWai','76qLOghR','trim','3669036AQYEdX','706466vAnOgy','34784tXtnuI'];_0x51c8=function(){return _0x50e7a6;};return _0x51c8();}function parseOptionalInt(_0x562d81){var _0x4c024c=_0x1859;return _0x562d81=_0x562d81[_0x4c024c(0x1b2)](),_0x562d81===''?null:parseInt(_0x562d81,0xa);}
-
-const _0x1938fc=_0x4d50;function _0x4d50(_0x28e4a9,_0x17f6b3){const _0x4ce33f=_0x4ce3();return _0x4d50=function(_0x4d50ed,_0x2672fa){_0x4d50ed=_0x4d50ed-0x1dd;let _0x58a5b1=_0x4ce33f[_0x4d50ed];return _0x58a5b1;},_0x4d50(_0x28e4a9,_0x17f6b3);}function _0x4ce3(){const _0x4a15d0=['budget','1291090oPWBjp','getElementById','searchBtn','203kFTLwc','210364OftEdB','19528QbYMkT','minRam','284078JSjrpE','click','1gbWOVi','351fwDadG','40038SPCzbE','5049330gJZVKW','5476680MulzcC','27StuclB','minScreen','maxWeight','value','addEventListener'];_0x4ce3=function(){return _0x4a15d0;};return _0x4ce3();}(function(_0x1c0270,_0x3e59ee){const _0x4da4d5=_0x4d50,_0x59c3a5=_0x1c0270();while(!![]){try{const _0x113475=parseInt(_0x4da4d5(0x1ee))/0x1*(parseInt(_0x4da4d5(0x1ec))/0x2)+parseInt(_0x4da4d5(0x1df))/0x3*(parseInt(_0x4da4d5(0x1e9))/0x4)+-parseInt(_0x4da4d5(0x1e5))/0x5+parseInt(_0x4da4d5(0x1f0))/0x6*(-parseInt(_0x4da4d5(0x1e8))/0x7)+parseInt(_0x4da4d5(0x1ea))/0x8*(parseInt(_0x4da4d5(0x1ef))/0x9)+parseInt(_0x4da4d5(0x1dd))/0xa+-parseInt(_0x4da4d5(0x1de))/0xb;if(_0x113475===_0x3e59ee)break;else _0x59c3a5['push'](_0x59c3a5['shift']());}catch(_0x43ab98){_0x59c3a5['push'](_0x59c3a5['shift']());}}}(_0x4ce3,0x40e93));function runSearch(){const _0x199dfb=_0x4d50,_0x187686={'budget':document[_0x199dfb(0x1e6)](_0x199dfb(0x1e4))[_0x199dfb(0x1e2)],'maxWeight':parseOptionalFloat(document[_0x199dfb(0x1e6)](_0x199dfb(0x1e1))[_0x199dfb(0x1e2)]),'minRam':parseOptionalInt(document['getElementById'](_0x199dfb(0x1eb))[_0x199dfb(0x1e2)]),'minGen':parseOptionalInt(document['getElementById']('minGen')[_0x199dfb(0x1e2)]),'minScreen':parseOptionalFloat(document[_0x199dfb(0x1e6)](_0x199dfb(0x1e0))['value'])};currentRows=filterLaptops(_0x187686),renderRows(currentRows);}document['getElementById'](_0x1938fc(0x1e7))[_0x1938fc(0x1e3)](_0x1938fc(0x1ed),runSearch),runSearch();
-
-</script>
-</body>
-</html>
+</style></head><body><div class="container"><div class="card"><header><h1>💻 پیشنهاد لپ‌تاپ — نسخه وب</h1><p>بر اساس بازهٔ بودجه و معیارهای اختیاری؛ مرتب‌سازی با کلیک روی عنوان ستون‌ها + صفحه‌بندی هوشمند</p></header><div class="controls"><div class="field"><label>💰 بازه بودجه (دلار)</label><select id="budget"><option>[200-400]</option><option>[400-600]</option><option>[600-800]</option><option>[800-1000]</option><option>[1000-2000]</option></select></div><div class="field"><label>⚖️ حداکثر وزن (kg) — اختیاری</label><input id="maxWeight" type="number" step="0.01" placeholder="مثلاً 1.6" /></div><div class="field"><label>🧠 حداقل RAM (GB) — اختیاری</label><input id="minRam" type="number" step="1" placeholder="مثلاً 8" /></div><div class="field"><label>⚙️ حداقل نسل CPU — اختیاری</label><input id="minGen" type="number" step="1" placeholder="مثلاً 10" /></div><div class="field"><label>🖥️ حداقل اندازه نمایشگر (inch) — اختیاری</label><input id="minScreen" type="number" step="0.1" placeholder="مثلاً 14" /></div><button class="btn" id="searchBtn">🔍 جست‌وجو</button></div><div class="table-wrap"><table id="table"><thead><tr><th data-key="name">مدل</th><th data-key="brand">برند</th><th data-key="price" data-type="num">قیمت ($)</th><th data-key="weight" data-type="num">وزن (kg)</th><th data-key="ram" data-type="num">RAM</th><th data-key="cpu_gen" data-type="num">نسل CPU</th><th data-key="screen" data-type="num">نمایشگر (")</th><th data-key="storage">حافظه</th></tr></thead><tbody></tbody><tfoot><tr><td colspan="8" id="status"></td></tr></tfoot></table></div><div class="pagination-bar"><div class="page-info" id="pageInfo"></div><div class="page-size-select"><span>تعداد رکورد در هر صفحه:</span><select id="pageSizeSelect"><option value="50">50</option><option value="100" selected>100</option><option value="200">200</option><option value="all">همه</option></select></div><div class="pager" id="pager"></div></div><div class="footer"><div class="hint">برای مرتب‌سازی، روی عنوان هر ستون کلیک کنید. دوباره کلیک کنید تا جهت مرتب‌سازی برعکس شود.</div><div class="author">👤 Author: Ali Bazghandi</div></div></div></div><script>(function(){const s='Y29uc3QgQlJBTkRTPVsiQXBwbGUiLCJEZWxsIiwiSFAiLCJBU1VTIiwiTGVub3ZvIiwiQWNlciIsIk1TSSIsIkh1YXdlaSIsIk1pY3Jvc29mdCIsIlNhbXN1bmciXTsgY29uc3QgU0VSSUVTPVsiUHJvIiwiQWlyIiwiWFBTIiwiUGF2aWxpb24iLCJJZGVhUGFkIiwiWmVuQm9vayIsIllvZ2EiLCJOaXRybyIsIk1hdGVCb29rIiwiU3VyZmFjZSIsIkNocm9tZWJvb2siLCJWaWN0dXMiLCJMZWdpb24iLCJWaXZvQm9vayIsIlRoaW5rUGFkIiwiQXNwaXJlIiwiUHJlc3RpZ2UiXTsgY29uc3QgU1RPUkFHRVM9WyIxMjhHQiBTU0QiLCIyNTZHQiBTU0QiLCI1MTJHQiBTU0QiLCIxVEIgU1NEIiwiNjRHQiBlTU1DIl07IGNvbnN0IHJhbmRJbnQ9KGEsYik9Pk1hdGguZmxvb3IoTWF0aC5yYW5kb20oKSooYi1hKzEpKSthOyBjb25zdCByYW5kRmxvYXQ9KGEsYixmaXg9Mik9PisoYStNYXRoLnJhbmRvbSgpKihiLWEpKS50b0ZpeGVkKGZpeCk7IGNvbnN0IGNob2ljZT1hcnI9PmFycltyYW5kSW50KDAsYXJyLmxlbmd0aC0xKV07IGZ1bmN0aW9uIGdlbmVyYXRlTGFwdG9wcyhuPTIwMDApeyBjb25zdCByb3dzPVtdOyBmb3IobGV0IGk9MDtpPG47aSsrKXsgY29uc3QgYnJhbmQ9Y2hvaWNlKEJSQU5EUyk7IGNvbnN0IHNlcmllcz1jaG9pY2UoU0VSSUVTKTsgY29uc3QgcHJpY2U9cmFuZEludCgyMDAsMjAwMCk7IGxldCB3ZWlnaHQ7IGlmKFsiQXBwbGUiLCJNaWNyb3NvZnQiLCJIdWF3ZWkiXS5pbmNsdWRlcyhicmFuZCkpeyB3ZWlnaHQ9cmFuZEZsb2F0KDEuMTAsMS42MCwyKTsgfWVsc2UgaWYoWyJNU0kiLCJBU1VTIiwiSFAiLCJEZWxsIl0uaW5jbHVkZXMoYnJhbmQpKXsgd2VpZ2h0PXJhbmRGbG9hdCgxLjMwLDIuNTAsMik7IH1lbHNleyB3ZWlnaHQ9cmFuZEZsb2F0KDEuMjAsMi43MCwyKTsgfSBjb25zdCByYW09Y2hvaWNlKFs0LDgsMTIsMTYsMjQsMzJdKTsgY29uc3QgY3B1X2dlbj1yYW5kSW50KDYsMTQpOyBjb25zdCBzY3JlZW49Y2hvaWNlKFsxMy4zLDE0LjAsMTUuNiwxNi4wLDE3LjNdKTsgY29uc3Qgc3RvcmFnZT1jaG9pY2UoU1RPUkFHRVMpOyByb3dzLnB1c2goe2JyYW5kLG5hbWU6YCR7YnJhbmR9ICR7c2VyaWVzfSBHZW4ke2NwdV9nZW59YCxwcmljZSx3ZWlnaHQscmFtLGNwdV9nZW4sc2NyZWVuLHN0b3JhZ2V9KTsgfSByZXR1cm4gcm93czsgfSBjb25zdCBBTEw9Z2VuZXJhdGVMYXB0b3BzKDIwMDApOyBjb25zdCBCVURHRVRTPXsgIlsyMDAtNDAwXSI6WzIwMCw0MDBdLCAiWzQwMC02MDBdIjpbNDAwLDYwMF0sICJbNjAwLTgwMF0iOls2MDAsODAwXSwgIls4MDAtMTAwMF0iOls4MDAsMTAwMF0sICJbMTAwMC0yMDAwXSI6WzEwMDAsMjAwMF0gfTsgZnVuY3Rpb24gZmlsdGVyTGFwdG9wcyhwYXJhbXMpeyBjb25zdCBbbWluUCxtYXhQXT1CVURHRVRTW3BhcmFtcy5idWRnZXRdPz9bMCw5OTk5OTldOyBsZXQgb3V0PUFMTC5maWx0ZXIobD0+eyBpZighKGwucHJpY2U+PW1pblAmJmwucHJpY2U8PW1heFApKXJldHVybiBmYWxzZTsgaWYocGFyYW1zLm1heFdlaWdodCE9bnVsbCYmbC53ZWlnaHQ+cGFyYW1zLm1heFdlaWdodClyZXR1cm4gZmFsc2U7IGlmKHBhcmFtcy5taW5SYW0hPW51bGwmJmwucmFtPHBhcmFtcy5taW5SYW0pcmV0dXJuIGZhbHNlOyBpZihwYXJhbXMubWluR2VuIT1udWxsJiZsLmNwdV9nZW48cGFyYW1zLm1pbkdlbilyZXR1cm4gZmFsc2U7IGlmKHBhcmFtcy5taW5TY3JlZW4hPW51bGwmJmwuc2NyZWVuPHBhcmFtcy5taW5TY3JlZW4pcmV0dXJuIGZhbHNlOyByZXR1cm4gdHJ1ZTsgfSk7IG91dC5zb3J0KChhLGIpPT5hLnByaWNlLWIucHJpY2UpOyBjb25zdCBmb3VuZD1uZXcgU2V0KG91dC5tYXAoeD0+eC5icmFuZCkpOyBpZihmb3VuZC5zaXplPDMpeyBjb25zdCBtaXNzaW5nPUJSQU5EUy5maWx0ZXIoYj0+IWZvdW5kLmhhcyhiKSk7IGZvcihsZXQgaT0wO2k8bWlzc2luZy5sZW5ndGgmJmZvdW5kLnNpemU8MztpKyspeyBjb25zdCBjYW5kaWRhdGVzPUFMTC5maWx0ZXIobD0+bC5icmFuZD09PW1pc3NpbmdbaV0mJmwucHJpY2U+PW1pblAmJmwucHJpY2U8PW1heFApOyBpZihjYW5kaWRhdGVzLmxlbmd0aCl7IG91dC5wdXNoKGNhbmRpZGF0ZXNbTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpKmNhbmRpZGF0ZXMubGVuZ3RoKV0pOyBmb3VuZC5hZGQobWlzc2luZ1tpXSk7IH0gfSB9IHJldHVybiBvdXQ7IH0gY29uc3QgdGJvZHk9ZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiI3RhYmxlIHRib2R5Iik7IGNvbnN0IHN0YXR1c0VsPWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJzdGF0dXMiKTsgY29uc3QgcGFnZUluZm9FbD1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgicGFnZUluZm8iKTsgY29uc3QgcGFnZXJFbD1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgicGFnZXIiKTsgY29uc3QgcGFnZVNpemVTZWxlY3Q9ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoInBhZ2VTaXplU2VsZWN0Iik7IGxldCBjdXJyZW50Um93cz1bXTsgbGV0IHNvcnRTdGF0ZT17a2V5Om51bGwsYXNjOnRydWV9OyBsZXQgY3VycmVudFBhZ2U9MTsgbGV0IHBhZ2VTaXplPTEwMDsgZnVuY3Rpb24gZ2V0UGFnZVNpemUoKXsgY29uc3Qgdj1wYWdlU2l6ZVNlbGVjdC52YWx1ZTsgaWYodj09PSJhbGwiKXJldHVybiJhbGwiOyByZXR1cm4gcGFyc2VJbnQodiwxMCl8fDEwMDsgfSBmdW5jdGlvbiByZW5kZXJSb3dzUGFnZWQoKXsgdGJvZHkuaW5uZXJIVE1MPSIiOyBjb25zdCB0b3RhbD1jdXJyZW50Um93cy5sZW5ndGg7IHBhZ2VTaXplPWdldFBhZ2VTaXplKCk7IGxldCBzdGFydD0wOyBsZXQgZW5kPXRvdGFsOyBpZihwYWdlU2l6ZSE9PSJhbGwiKXsgY29uc3QgdG90YWxQYWdlcz1NYXRoLm1heCgxLE1hdGguY2VpbCh0b3RhbC9wYWdlU2l6ZSkpOyBpZihjdXJyZW50UGFnZT50b3RhbFBhZ2VzKWN1cnJlbnRQYWdlPXRvdGFsUGFnZXM7IGlmKGN1cnJlbnRQYWdlPDEpY3VycmVudFBhZ2U9MTsgc3RhcnQ9KGN1cnJlbnRQYWdlLTEpKnBhZ2VTaXplOyBlbmQ9TWF0aC5taW4oc3RhcnQrcGFnZVNpemUsdG90YWwpOyB9ZWxzZXsgY3VycmVudFBhZ2U9MTsgfSBmb3IobGV0IGk9c3RhcnQ7aTxlbmQ7aSsrKXsgY29uc3Qgcj1jdXJyZW50Um93c1tpXTsgY29uc3QgdHI9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgidHIiKTsgdHIuaW5uZXJIVE1MPWA8dGQ+JHtyLm5hbWV9PC90ZD48dGQ+JHtyLmJyYW5kfTwvdGQ+PHRkIGRhdGEtbnVtPSIke3IucHJpY2V9Ij4ke3IucHJpY2V9PC90ZD48dGQgZGF0YS1udW09IiR7ci53ZWlnaHR9Ij4ke3Iud2VpZ2h0LnRvRml4ZWQoMil9PC90ZD48dGQgZGF0YS1udW09IiR7ci5yYW19Ij4ke3IucmFtfTwvdGQ+PHRkIGRhdGEtbnVtPSIke3IuY3B1X2dlbn0iPiR7ci5jcHVfZ2VufTwvdGQ+PHRkIGRhdGEtbnVtPSIke3Iuc2NyZWVufSI+JHtyLnNjcmVlbi50b0ZpeGVkKDEpfTwvdGQ+PHRkPiR7ci5zdG9yYWdlfTwvdGQ+YDsgdGJvZHkuYXBwZW5kQ2hpbGQodHIpOyB9IGlmKCF0b3RhbCl7IHN0YXR1c0VsLnRleHRDb250ZW50PSLZhdmI2LHYr9uMINuM2KfZgdiqINmG2LTYry4iOyB9ZWxzZSBpZihwYWdlU2l6ZT09PSJhbGwiKXsgc3RhdHVzRWwudGV4dENvbnRlbnQ9YNmG2YXYp9uM2LQg2YfZhdmH2ZQgJHt0b3RhbH0g2YbYqtuM2KzZh9mUINuM2KfZgdiq4oCM2LTYr9mHYDsgfWVsc2V7IHN0YXR1c0VsLnRleHRDb250ZW50PWDZhtmF2KfbjNi0ICR7ZW5kLXN0YXJ0fSDZhdmI2LHYryAo2KfYsiAke3N0YXJ0KzF9INiq2KcgJHtlbmR9KSDYp9iyINmF2KzZhdmI2LkgJHt0b3RhbH0g2YbYqtuM2KzZh9mUINuM2KfZgdiq4oCM2LTYr9mHYDsgfSByZW5kZXJQYWdpbmF0aW9uQ29udHJvbHMoKTsgfSBmdW5jdGlvbiByZW5kZXJQYWdpbmF0aW9uQ29udHJvbHMoKXsgY29uc3QgdG90YWw9Y3VycmVudFJvd3MubGVuZ3RoOyBwYWdlU2l6ZT1nZXRQYWdlU2l6ZSgpOyBwYWdlckVsLmlubmVySFRNTD0iIjsgaWYoIXRvdGFsKXsgcGFnZUluZm9FbC50ZXh0Q29udGVudD0i2LXZgdit2YcgMCDYp9iyIDAiOyByZXR1cm47IH0gaWYocGFnZVNpemU9PT0iYWxsIil7IHBhZ2VJbmZvRWwudGV4dENvbnRlbnQ9YNmG2YXYp9uM2LQg2YfZhdmHICgke3RvdGFsfSDZhdmI2LHYrylgOyByZXR1cm47IH0gY29uc3QgdG90YWxQYWdlcz1NYXRoLm1heCgxLE1hdGguY2VpbCh0b3RhbC9wYWdlU2l6ZSkpOyBpZihjdXJyZW50UGFnZT50b3RhbFBhZ2VzKWN1cnJlbnRQYWdlPXRvdGFsUGFnZXM7IHBhZ2VJbmZvRWwudGV4dENvbnRlbnQ9YNi12YHYrdmHICR7Y3VycmVudFBhZ2V9INin2LIgJHt0b3RhbFBhZ2VzfWA7IGNvbnN0IGZpcnN0QnRuPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoImJ1dHRvbiIpOyBmaXJzdEJ0bi50ZXh0Q29udGVudD0iwqsiOyBmaXJzdEJ0bi50aXRsZT0i2KfZiNmE24zZhiDYtdmB2K3ZhyI7IGZpcnN0QnRuLmRpc2FibGVkPWN1cnJlbnRQYWdlPT09MTsgZmlyc3RCdG4ub25jbGljaz0oKT0+e2N1cnJlbnRQYWdlPTE7cmVuZGVyUm93c1BhZ2VkKCk7fTsgY29uc3QgcHJldkJ0bj1kb2N1bWVudC5jcmVhdGVFbGVtZW50KCJidXR0b24iKTsgcHJldkJ0bi50ZXh0Q29udGVudD0i4oC5IjsgcHJldkJ0bi50aXRsZT0i2LXZgdit2Ycg2YLYqNmE24wiOyBwcmV2QnRuLmRpc2FibGVkPWN1cnJlbnRQYWdlPT09MTsgcHJldkJ0bi5vbmNsaWNrPSgpPT57Y3VycmVudFBhZ2UtLTtyZW5kZXJSb3dzUGFnZWQoKTt9OyBwYWdlckVsLmFwcGVuZENoaWxkKGZpcnN0QnRuKTsgcGFnZXJFbC5hcHBlbmRDaGlsZChwcmV2QnRuKTsgY29uc3QgbWF4QnV0dG9ucz03OyBsZXQgc3RhcnRQYWdlPU1hdGgubWF4KDEsY3VycmVudFBhZ2UtMyk7IGxldCBlbmRQYWdlPU1hdGgubWluKHRvdGFsUGFnZXMsc3RhcnRQYWdlK21heEJ1dHRvbnMtMSk7IGlmKGVuZFBhZ2Utc3RhcnRQYWdlKzE8bWF4QnV0dG9ucyl7IHN0YXJ0UGFnZT1NYXRoLm1heCgxLGVuZFBhZ2UtbWF4QnV0dG9ucysxKTsgfSBpZihzdGFydFBhZ2U+MSl7IGFkZFBhZ2VCdXR0b24oMSk7IGlmKHN0YXJ0UGFnZT4yKWFkZEVsbGlwc2lzKCk7IH0gZm9yKGxldCBwPXN0YXJ0UGFnZTtwPD1lbmRQYWdlO3ArKyl7IGFkZFBhZ2VCdXR0b24ocCxwPT09Y3VycmVudFBhZ2UpOyB9IGlmKGVuZFBhZ2U8dG90YWxQYWdlcyl7IGlmKGVuZFBhZ2U8dG90YWxQYWdlcy0xKWFkZEVsbGlwc2lzKCk7IGFkZFBhZ2VCdXR0b24odG90YWxQYWdlcyk7IH0gY29uc3QgbmV4dEJ0bj1kb2N1bWVudC5jcmVhdGVFbGVtZW50KCJidXR0b24iKTsgbmV4dEJ0bi50ZXh0Q29udGVudD0i4oC6IjsgbmV4dEJ0bi50aXRsZT0i2LXZgdit2Ycg2KjYudiv24wiOyBuZXh0QnRuLmRpc2FibGVkPWN1cnJlbnRQYWdlPT09dG90YWxQYWdlczsgbmV4dEJ0bi5vbmNsaWNrPSgpPT57Y3VycmVudFBhZ2UrKztyZW5kZXJSb3dzUGFnZWQoKTt9OyBjb25zdCBsYXN0QnRuPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoImJ1dHRvbiIpOyBsYXN0QnRuLnRleHRDb250ZW50PSLCuyI7IGxhc3RCdG4udGl0bGU9Itii2K7YsduM2YYg2LXZgdit2YciOyBsYXN0QnRuLmRpc2FibGVkPWN1cnJlbnRQYWdlPT09dG90YWxQYWdlczsgbGFzdEJ0bi5vbmNsaWNrPSgpPT57Y3VycmVudFBhZ2U9dG90YWxQYWdlcztyZW5kZXJSb3dzUGFnZWQoKTt9OyBwYWdlckVsLmFwcGVuZENoaWxkKG5leHRCdG4pOyBwYWdlckVsLmFwcGVuZENoaWxkKGxhc3RCdG4pOyBmdW5jdGlvbiBhZGRQYWdlQnV0dG9uKHBhZ2UsYWN0aXZlPWZhbHNlKXsgY29uc3QgYnRuPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoImJ1dHRvbiIpOyBidG4udGV4dENvbnRlbnQ9cGFnZTsgYnRuLmNsYXNzTGlzdC5hZGQoInBhZ2UtYnRuIik7IGlmKGFjdGl2ZSlidG4uY2xhc3NMaXN0LmFkZCgiYWN0aXZlIik7IGJ0bi5vbmNsaWNrPSgpPT57Y3VycmVudFBhZ2U9cGFnZTtyZW5kZXJSb3dzUGFnZWQoKTt9OyBwYWdlckVsLmFwcGVuZENoaWxkKGJ0bik7IH0gZnVuY3Rpb24gYWRkRWxsaXBzaXMoKXsgY29uc3Qgc3Bhbj1kb2N1bWVudC5jcmVhdGVFbGVtZW50KCJzcGFuIik7IHNwYW4udGV4dENvbnRlbnQ9IuKApiI7IHNwYW4uY2xhc3NOYW1lPSJlbGxpcHNpcyI7IHBhZ2VyRWwuYXBwZW5kQ2hpbGQoc3Bhbik7IH0gfSBmdW5jdGlvbiBzb3J0Qnkoa2V5LHR5cGU9InN0ciIpeyBpZighY3VycmVudFJvd3MubGVuZ3RoKXJldHVybjsgY29uc3QgYXNjPShzb3J0U3RhdGUua2V5PT09a2V5KT8hc29ydFN0YXRlLmFzYzp0cnVlOyBzb3J0U3RhdGU9e2tleSxhc2N9OyBjdXJyZW50Um93cy5zb3J0KChhLGIpPT57IGxldCB2YT1hW2tleV0sdmI9YltrZXldOyBpZih0eXBlPT09Im51bSIpeyByZXR1cm4gYXNjP3ZhLXZiOnZiLXZhOyB9IHZhPSgiIit2YSkudG9Mb3dlckNhc2UoKTsgdmI9KCIiK3ZiKS50b0xvd2VyQ2FzZSgpOyBpZih2YTx2YilyZXR1cm4gYXNjPy0xOjE7IGlmKHZhPnZiKXJldHVybiBhc2M/MTotMTsgcmV0dXJuIDA7IH0pOyBjdXJyZW50UGFnZT0xOyByZW5kZXJSb3dzUGFnZWQoKTsgfSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCJ0aGVhZCB0aCIpLmZvckVhY2godGg9PnsgdGguYWRkRXZlbnRMaXN0ZW5lcigiY2xpY2siLCgpPT57IGNvbnN0IGtleT10aC5kYXRhc2V0LmtleTsgY29uc3QgdHlwZT10aC5kYXRhc2V0LnR5cGU9PT0ibnVtIj8ibnVtIjoic3RyIjsgaWYoa2V5KXNvcnRCeShrZXksdHlwZSk7IH0pOyB9KTsgY29uc3QgcGFyc2VPcHRpb25hbEZsb2F0PXY9Pnsgdj12LnRyaW0oKTsgcmV0dXJuIHY9PT0iIj9udWxsOk51bWJlcih2KTsgfTsgY29uc3QgcGFyc2VPcHRpb25hbEludD12PT57IHY9di50cmltKCk7IHJldHVybiB2PT09IiI/bnVsbDpwYXJzZUludCh2LDEwKTsgfTsgZnVuY3Rpb24gcnVuU2VhcmNoKCl7IGNvbnN0IHBhcmFtcz17IGJ1ZGdldDpkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiYnVkZ2V0IikudmFsdWUsIG1heFdlaWdodDpwYXJzZU9wdGlvbmFsRmxvYXQoZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoIm1heFdlaWdodCIpLnZhbHVlKSwgbWluUmFtOnBhcnNlT3B0aW9uYWxJbnQoZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoIm1pblJhbSIpLnZhbHVlKSwgbWluR2VuOnBhcnNlT3B0aW9uYWxJbnQoZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoIm1pbkdlbiIpLnZhbHVlKSwgbWluU2NyZWVuOnBhcnNlT3B0aW9uYWxGbG9hdChkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgibWluU2NyZWVuIikudmFsdWUpIH07IGN1cnJlbnRSb3dzPWZpbHRlckxhcHRvcHMocGFyYW1zKTsgY3VycmVudFBhZ2U9MTsgcmVuZGVyUm93c1BhZ2VkKCk7IH0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoInNlYXJjaEJ0biIpLmFkZEV2ZW50TGlzdGVuZXIoImNsaWNrIixydW5TZWFyY2gpOyBwYWdlU2l6ZVNlbGVjdC5hZGRFdmVudExpc3RlbmVyKCJjaGFuZ2UiLCgpPT57IGN1cnJlbnRQYWdlPTE7IHJlbmRlclJvd3NQYWdlZCgpOyB9KTsgcnVuU2VhcmNoKCk7';(0,eval)(atob(s));})();</script></body></html>
